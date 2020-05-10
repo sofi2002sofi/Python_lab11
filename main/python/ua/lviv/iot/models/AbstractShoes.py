@@ -2,7 +2,8 @@ from abc import ABC
 from main.python.ua.lviv.iot.models.Sex import Sex
 
 
-class AbstractShoes(ABC):
+#class AbstractShoes(ABC):
+class AbstractShoes:
 
     def __init__(self, size_eur_standard: int, price_in_uah: float, assignment: str, sex: Sex, brand: str, color: str,
                  material_of_vamp: str, material_of_lining: str, toecap_type: str):
